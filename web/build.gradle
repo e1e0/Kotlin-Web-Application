@@ -1,6 +1,11 @@
 plugins {
     id 'java-library'
     id 'org.jetbrains.kotlin.jvm'
+    id 'java'
+}
+
+dependencies {
+    implementation 'io.javalin:javalin:4.3.0'
 }
 
 java {
